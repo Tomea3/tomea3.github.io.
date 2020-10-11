@@ -1,0 +1,33 @@
+*{margin:0;padding:0}
+
+h1 {text-align: center;
+    padding-top: 0.3em; padding-bottom: 0.5em;
+    font-family: Verdana, Geneva, sans-serif;
+    background-image: linear-gradient(45deg, lightblue, #99ccff )}
+
+h2 {text-align: center;
+    font-family: Verdana, Geneva, sans-serif}
+
+p {padding: 0.5em; padding-left: 0.8em; padding-right: 0.8em;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+
+
+#obr1 {display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em; margin-bottom: 1em;}
+
+
+#hr1 {display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-width: 1px}
+
+#seznam1 {text-align: center;
+        margin-bottom: 1em}
+
+#tlacitko1 {
+    position: absolute;
+    right: 30px; top: 6px
+  }
