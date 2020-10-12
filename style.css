@@ -28,6 +28,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;}
         margin-bottom: 1em}
 
 #tlacitko1 {
-    position: absolute;
-    right: 30px; top: 6px
+    margin-top: 6px;
+    margin-right: 10px;
+    float: inline-end;
   }
