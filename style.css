@@ -1,35 +1,84 @@
+html {font-size: 100%;}
 *{margin:0;padding:0}
 
-h1 {text-align: center;
-    padding-top: 0.3em; padding-bottom: 0.5em;
+h1 {
     font-family: Verdana, Geneva, sans-serif;
-    background-image: linear-gradient(45deg, lightblue, #99ccff )}
+    font-style: italic;
+    color: rgb(34, 36, 33);
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px
+    }
 
-h2 {text-align: center;
-    font-family: Verdana, Geneva, sans-serif}
+.header {display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        margin: 0;
+        align-items: center;
+        background-image: linear-gradient(45deg, lightblue, #1565C0)
+        
+}
+.header img {
+    flex-basis: 10%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.header h1 {
+    flex-grow: 3;
+}
 
-p {padding: 0.5em; padding-left: 0.8em; padding-right: 0.8em;
-font-family: Georgia, 'Times New Roman', Times, serif;}
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    list-style: none;
+    margin: 0; 
+    background-image: linear-gradient(#1565C0, rgb(142, 204, 224))
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  #active {
+      background:  #1565C0;
+      
+  }
+  .navigation a:hover {
+    background: #1565C0;
+    
+  }
 
-
-#obr1 {display: block;
-    width: 40%;
+.text {
+    max-width: 85rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5em; margin-bottom: 1em;}
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify}
+
+.text h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: italic;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#foto_dam {
+    float: right;
+    margin-left: 1rem;
+}
+.text p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    word-spacing: 0.2rem
+}
 
 
-#hr1 {display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    border-width: 1px}
 
-#seznam1 {text-align: center;
-        margin-bottom: 1em}
 
-#tlacitko1 {
-    margin-top: 6px;
-    margin-right: 10px;
-    float: inline-end;
-  }
 
