@@ -37,7 +37,7 @@ h1 {
     background-image: linear-gradient(#1565C0, rgb(142, 204, 224))
   }
   
-  .navigation a {
+.navigation a {
     text-decoration: none;
     display: block;
     padding: 1rem;
@@ -45,11 +45,11 @@ h1 {
     font-weight: bold;
     font-family: Verdana, Geneva, sans-serif;
   }
-  #active {
+#active {
       background:  #1565C0;
       
   }
-  .navigation a:hover {
+.navigation a:hover {
     background: #1565C0;
     
   }
