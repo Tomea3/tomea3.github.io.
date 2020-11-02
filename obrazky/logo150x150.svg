@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="150"
+   viewBox="0 0 468.75029 468.75029"
+   width="150"
+   version="1.2"
+   id="svg66"
+   sodipodi:docname="logo150x150.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview68"
+     showgrid="false"
+     inkscape:snap-center="true"
+     units="px"
+     inkscape:zoom="3.5355362"
+     inkscape:cx="113.28685"
+     inkscape:cy="95.164276"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg66" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2661">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2657" />
+      <stop
+         style="stop-color:#6dff00;stop-opacity:0"
+         offset="1"
+         id="stop2659" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2651"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2649" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2661"
+       id="linearGradient2663"
+       x1="12.431441"
+       y1="237.94075"
+       x2="450.78564"
+       y2="237.94075"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+  </defs>
+  <metadata
+     id="metadata64">
+    <rdf:RDF>
+      <rdf:Description
+         dc:identifier=""
+         dc:title=""
+         dc:format="image/svg+xml"
+         dc:description=""
+         dc:date="2020-11-02T16:03:10">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li>Tomea</rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+        <dc:publisher>
+          <rdf:Bag>
+            <rdf:li>QGIS 3.14.0-Pi</rdf:li>
+          </rdf:Bag>
+        </dc:publisher>
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+      </rdf:Description>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:title></dc:title>
+        <dc:date>2020-11-02T16:03:10</dc:date>
+        <dc:identifier />
+        <dc:description />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Tomea</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>QGIS 3.14.0-Pi</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     style="fill:url(#linearGradient2663);fill-opacity:1;stroke:none;stroke-width:3.98364449;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;opacity:0.41"
+     id="path4578"
+     cx="231.60854"
+     cy="237.94075"
+     r="217.18527" />
+  <path
+     style="fill:#0bb20b;fill-opacity:1;stroke:none;stroke-width:8.60523415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path1154"
+     transform="matrix(0.63841203,-0.7696948,0,1,0,0)"
+     sodipodi:type="arc"
+     sodipodi:cx="358.65012"
+     sodipodi:cy="459.18259"
+     sodipodi:rx="221.79306"
+     sodipodi:ry="126.37317"
+     sodipodi:start="0.42844656"
+     sodipodi:end="2.6306723"
+     sodipodi:open="true"
+     d="M 560.3958,511.68537 A 221.79306,126.37317 0 0 1 367.79358,585.44832 221.79306,126.37317 0 0 1 165.18117,520.97657" />
+  <path
+     d="M 363.14798,373.8028 A 221.79306,126.37317 0 0 1 170.54576,447.56575 221.79306,126.37317 0 0 1 -32.066645,383.09401"
+     sodipodi:open="true"
+     sodipodi:end="2.6306723"
+     sodipodi:start="0.42844656"
+     sodipodi:ry="126.37317"
+     sodipodi:rx="221.79306"
+     sodipodi:cy="321.30002"
+     sodipodi:cx="161.4023"
+     sodipodi:type="arc"
+     transform="matrix(0.36665908,-0.93035537,0.31173447,0.95016926,0,0)"
+     id="path1156"
+     style="fill:#1f78b4;fill-opacity:1;stroke:none;stroke-width:8.60523415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+  <circle
+     r="223.31622"
+     cy="237.94075"
+     cx="231.60854"
+     id="circle1150"
+     style="fill:none;fill-opacity:1;stroke:#fefeff;stroke-width:4.09609938;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" />
+</svg>
