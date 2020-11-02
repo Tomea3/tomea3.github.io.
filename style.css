@@ -11,21 +11,18 @@ h1 {
     }
 
 .header {display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
         margin: 0;
         align-items: center;
         background-image: linear-gradient(45deg, lightblue, #1565C0)
         
 }
 .header img {
-    flex-basis: 10%;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-.header h1 {
-    flex-grow: 3;
-}
+
 
 .navigation {
     display: flex;
@@ -55,9 +52,10 @@ h1 {
   }
 
 .text {
-    max-width: 85rem;
+    max-width: 90rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify}
 
@@ -67,10 +65,7 @@ h1 {
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
-#foto_dam {
-    float: right;
-    margin-left: 1rem;
-}
+
 .text p {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -78,7 +73,38 @@ h1 {
     word-spacing: 0.2rem
 }
 
+.text h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    margin-top:3rem;
+    margin-bottom: 1rem;
 
+}
+#foto_dam {
+    float: right;
+    margin-left: 1rem;
+}
+
+#algae_dam {
+    float: left;
+    margin-right: 1rem;
+}
+
+footer {
+    background-image: linear-gradient(rgb(142, 204, 224), #1565C0) ;
+    height: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, sans-serif
+}
+
+footer a {
+margin-right: 2rem;
+margin-left: 2rem;
+}
 
 
 
