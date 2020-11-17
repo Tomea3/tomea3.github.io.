@@ -1,110 +1,26 @@
-html {font-size: 100%;}
-*{margin:0;padding:0}
-
-h1 {
-    font-family: Verdana, Geneva, sans-serif;
-    font-style: italic;
-    color: rgb(34, 36, 33);
-    font-size: 2.5rem;
+h1 {margin: auto;
     text-align: center;
-    padding: 20px
-    }
-
-.header {display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 0;
-        align-items: center;
-        background-image: linear-gradient(45deg, lightblue, #1565C0)
-        
-}
-.header img {
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-
-.navigation {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     
-    list-style: none;
-    margin: 0; 
-    background-image: linear-gradient(#1565C0, rgb(142, 204, 224))
-  }
-  
-.navigation a {
-    text-decoration: none;
-    display: block;
-    padding: 1rem;
-    color: white;
+}
+
+.popisek {
+    margin-left: 3px;
+    margin-right: 5px;
     font-weight: bold;
-    font-family: Verdana, Geneva, sans-serif;
-  }
-#active {
-      background:  #1565C0;
-      
-  }
-.navigation a:hover {
-    background: #1565C0;
-    
-  }
-
-.text {
-    max-width: 90rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: justify}
-
-.text h2 {
-    font-family: Verdana, Geneva, sans-serif;
-    font-style: italic;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+}
+.popisek_P{
+    margin-left: 3px;
+    margin-right: 29px;
+    font-weight: bold;
 }
 
-.text p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    line-height: 1.5;
-    word-spacing: 0.2rem
+.značky {
+    margin-right: 10px;
+    margin-left: 2px;
 }
 
-.text h3 {
-    font-family: Verdana, Geneva, sans-serif;
-    margin-top:3rem;
-    margin-bottom: 1rem;
-
+.místo {
+    font-size: 105%;
+    font-weight: bold;
+    text-decoration: underline;
 }
-#foto_dam {
-    float: right;
-    margin-left: 1rem;
-}
-
-#algae_dam {
-    float: left;
-    margin-right: 1rem;
-}
-
-footer {
-    background-image: linear-gradient(rgb(142, 204, 224), #1565C0) ;
-    height: 3rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Verdana, Geneva, sans-serif
-}
-
-footer a {
-margin-right: 2rem;
-margin-left: 2rem;
-}
-
-
-

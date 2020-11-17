@@ -1,56 +1,68 @@
 <!DOCTYPE html>
 <html lang="cs">
-    <head>
-        <meta charset="utf-8"> <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta name="description" content="Web pojednává o stavu vody v Brněnské přehradě v letech 2018 a 2019">
-        <title>Jakost vody v Brněnské přehradě 2018/19</title>
+<head>
+    
+    <meta charset="utf-8"> <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Výpočet ortodromy">
+        <title>Ortodroma</title>
         <link rel="stylesheet" type="text/css" href="./style.css" >
-    </head>
-    <body>
-        <div class ="header">
-            <img id="obr1" src="./obrazky/logo100x100.svg" width="100" height="100" alt="Logo stránky">
-            <h1>Kvalita vody na Brněnské přehradě v letech 2018 a 2019</h1>
-        </div>
+        <script src="script.js"></script>
         
-        <ul class="navigation">
-            <li id="active"><a href="./index.html">Úvod</a></li>
-            <li><a href="./o_prehrade.html">O přehradě</a></li>
-            <li><a href="./Metodika.html">Metodika</a></li>
-            <li><a href="./Chlorofyl_a.html">Chlorofyl a</a></li>
-            <li><a href="./Kyslík.html">Kyslík</a></li>
-            <li><a href="./turbidity.html">Průhlednost</a></li>
-            <li><a href="./teplota.html">Teplota</a></li>
-        </ul>
-        <div class="text">
-        <h2>Vítejte na stránkách o kvalitě vody na Brněnské přehradě v letech 2018 a 2019, </h2>
+</head>
+<body>
+  <div id="nadpis">
+  <h1>Výpočet ortodromy</h1>
+</div>
+  <form>
+    <label class="místo" for="polA_st">Souřadnice místa A:</label> <br><br>
 
-        <span title="Brněnská přehrada"><img id="foto_dam" src="./obrazky/foto_dam_604x400.jpg" width="604" height="400" alt="Fotografie Brněnské přehrady"></span>
+    <label class="popisek">Rovnoběžka:</label>
+    <input type="number" id="rovA_st" name="rovA_st" min="0" max="90" required><label class="značky"> °</label>
+    <input type="number" id="rovA_m" name="rovA_m" min="0" max="59" value="0"><label class="značky"> '</label>
+    <select name="rovA_s" id="rovA_s">
+      <option value="severní šířka">severní šířka</option>
+      <option value="jižní šířka">jižní šířka</option>
+    </select>
+    <br>
 
-        <p>na této stránce najdete všechny podstatné informace o znečištění přehrady v letech 2018 a 2019. Data pochází od Povodí Moravy s. p. a Krajské hygienické stanice Jihomoravského kraje, čímž je zajištěna jejich správnost a aktuálnost. Mapy a tabulky, které se nacházejí v jednotlivých tématických sekcích byly vypracovány v rámci bakalářské práce Bc. Tomáše Hanouska. Jednotlivé mapy ukazují vývoj a průběh rozšíření sinic, potažmo faktorů, které zvýšený výskyt způsobují jako je obsah chlorofylu a, množství rozpuštěného kyslíku ve vodě, průhlednost vody a v neposlední řadě teplota vody. Tabulky uvádějí naměřené hodnoty v daných místech. Přesný postup sběru in-situ dat a vypracování map je popsán v sekci Metodika.</p>
-        
-        <p>Brněnská přehrada (dříve pojmenovaná Kníničská přehrada podle zatopené obce Kníničky) se nachází na řece Svratce, přesněji na 56,19 km jejího toku, v blízkosti města Brna v Jihomoravském kraji. Jedná se o nádrž s krátkou dobou zadržení vody, přibližně 1 měsíc. Hlavními důvody k vybudování přehrady v těchto místech byly povodně, které pravidelně postihovaly obce podél řeky a regulace vodního toku, aby během suchého období, kdy se snížil průtok ve Svratce, bylo dostatek vody pro zásobování města Brna užitkovou vodou. Na západním břehu se nad přehradou tyčí hrad Veveří, který je symbolem přehrady poskytuje výhledy na celou její plochu. Pod hradem se rovněž nachází lávka pro pěší a cyklisty. Na přehradě rovněž funguje v letních měsících lodní doprava, která vám umožňuje zhlédnout krásy nádrže z úplně jiného pohledu.</p>
-
-        <h3>Problematika vodního květu</h3>
-
-        <span title="Sinice na přehradě"><img id="algae_dam" src="./obrazky/algae_630x354.jpg" width="630" height="354" alt="Sinice na přehradě"></span>
-
-        <p>Vodní květ se na hladině Brněnské nádrže objevuje již od jejího vzniku, ale až do 90. let 20. století se tomuto problému nevěnovala pozornost. V této době dominantní postavení převzala sinice <i>Microcystis aeruginosa</i>, která tvoří na hladině zelený povlak a likviduje jím biodiverzitu v nádrži. Proto se začalo uvažovat o přijetí protiopatřeních, která by udržela vodu čistou. V roce 2008 se přistoupilo k opatřením na vodní nádrži ve snaze zabránit opakujícímu se vodnímu květu, kdy byla přehrada upuštěna o 8 metrů. Na obnažené břehy se aplikovalo vápno, odbagrovala se vrstva sedimentů a postavily se provzdušňovací věže. Díky těmto a mnoha dalším opatřením se od roku 2009 až do roku 2017 vodní květ ve významném množství na nádrži neobjevil. Změna přišla v roce 2018, kdy bylo celé jaro srážkově podprůměrné a postupně klesal průtok ve Svratce. Nakonec se muselo přistoupit ke snížení odtoku z přehrady, což zapříčinilo, že doba zadržení vody, která je obvykle jeden měsíc, se natáhla až na 75 dní. Voda se za tu dobou stačila ohřát na vyšší teplotu, což pomohlo sinicím v rozmnožení. Druhým faktorem bylo opožděné vypouštění síranu železitého, který na přítoku Svratky do nádrže sráží fosfor. To začalo až na konci května, zatímco v předchozích letech se začalo již na konci dubna. V roce 2019 se situace neopakovala a voda v nádrži si udržela dobrou kvalitu.</p>  
-        </div>
-
-  
-        <footer>
-            <a href="https://www.khsbrno.cz/"><img id="logo_khs" src="./obrazky/KHS_58x43.png" width="58" height="43" alt="Logo Povodí Moravy"></a>
-            <p id="creator">Vytvořil Tomáš Hanousek v roce 2020</p>
-            <a href="http://www.pmo.cz/"><img id="logo_pmo" src="./obrazky/logo_povodi43x43.gif" width="43" height="43" alt="Logo Povodí Moravy"></a>
-        </footer>
-
+    <label class="popisek_P" >Poledník:</label>
+    <input type="number" id="polA_st" name="polA_st" min="0" max="180" required><label class="značky"> °</label>
+    <input type="number" id="polA_m" name="polA_m" min="0" max="59" value="0"><label class="značky"> '</label>
+    <select name="polA_d" id="polA_d">
+      <option value="východní délka">východní délka</option>
+      <option value="západní délka">západní délka</option>
+    </select>
+    <br><br><br>
 
     
-    </body>
 
+    <label class="místo" for="polB_st">Souřadnice místa B:</label> <br><br>
 
+    <label class="popisek">Rovnoběžka:</label>
+    <input type="number" id="rovB_st" name="rovB_st" min="0" max="90" required><label class="značky"> °</label>
+    <input type="number" id="rovB_m" name="rovB_m" min="0" max="59" value="0"><label class="značky"> '</label>
+    <select name="rovB_s" id="rovB_s">
+      <option value="severní šířka">severní šířka</option>
+      <option value="jižní šířka">jižní šířka</option>
+    </select>
+    <br>
 
+    <label class="popisek_P">Poledník:</label>
+    <input type="number" id="polB_st" name="polB_st" min="0" max="180" required><label class="značky"> °</label>
+    <input type="number" id="polB_m" name="polB_m" min="0" max="59" value="0"><label class="značky"> '</label>
+    <select name="polB_d" id="polB_d">
+      <option value="východní délka">východní délka</option>
+      <option value="západní délka">západní délka</option>
+    </select>
+    <br><br>
 
-
+    <input type="submit" value="Vypočítat">
+    <input type="reset" value="Vymazat">
+    <br><br>
+    <label class="popisek">Výsledek:</label>
+    <input type="text" id="vysledek"><label> km</label>
+  </form>
+  
+</body>
 
 </html>
