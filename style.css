@@ -1,0 +1,174 @@
+html {font-size: 100%;}
+*{margin:0;padding:0}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: italic;
+    color: rgb(34, 36, 33);
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px
+    }
+#obal {
+    min-height: calc(100vh - 251px);
+}
+.header {display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        align-items: center;
+        background-image: linear-gradient(45deg, lightblue, #1565C0)
+        
+}
+.header img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    list-style: none;
+    margin: 0; 
+    background-image: linear-gradient(#1565C0, rgb(142, 204, 224))
+  }
+  
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+#active {
+      background:  #1565C0;
+      
+  }
+.navigation a:hover {
+    background: #1565C0;
+    
+  }
+
+.text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    flex: 1 0 auto;
+}
+
+#map {
+    margin-left: 0;
+}
+.text h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.text h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    margin-top:1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+#text_right{
+    float: right;
+}
+
+img {
+    float: right;
+    margin-left: 1rem;
+}
+
+.img_left {
+    float: left;
+    margin-right: 1rem;
+    margin-left: 0rem;
+}
+.img_center {
+    float: none;
+    margin-right: auto;
+    margin-left: 0rem;
+}
+
+#aerial_view {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+}
+
+
+footer {
+    background-image: linear-gradient(rgb(142, 204, 224), #1565C0) ;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    height: 3rem;
+    clear: both;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, sans-serif
+}
+
+footer a {
+margin-right: 2rem;
+margin-left: 2rem;
+}
+
+
+/*Legend specific*/
+.legend {
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    line-height: 24px;
+    color: #555;
+  }
+  .legend h4 {
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 12px 8px;
+    color: #777;
+  }
+  
+  .legend span {
+    position: relative;
+    bottom: 3px;
+  }
+  
+  .legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 0 8px 0 20px;
+  }
+  
+  .legend i.icon {
+    background-size: 18px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+
+

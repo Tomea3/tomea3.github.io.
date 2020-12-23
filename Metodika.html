@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8"> <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Web pojednává o stavu vody v Brněnské přehradě v letech 2018 a 2019">
+        <title>Jakost vody v Brněnské přehradě 2018/19</title>
+        <link rel="stylesheet" type="text/css" href="./style.css" >
+    </head>
+    <body>
+        <div class ="header">
+            <img id="obr1" src="./obrazky/logo100x100.svg" width="100" height="100" alt="Logo stránky">
+            <h1>Kvalita vody na Brněnské přehradě v letech 2018 a 2019</h1>
+        </div>
+        
+        <ul class="navigation">
+            <li><a href="./index.html">Úvod</a></li>
+            <li><a href="./o_prehrade.html">O přehradě</a></li>
+            <li id="active"><a href="./Metodika.html">Metodika</a></li>
+            <li><a href="./Chlorofyl_a.html">Chlorofyl a</a></li>
+            <li><a href="./turbidity.html">Průhlednost</a></li>
+            <li><a href="./teplota.html">Teplota</a></li>
+        </ul>
+        <div id="obal">
+        <div class="text">
+           <h2>Metodika sběru in-situ dat a tvorba map</h2>
+
+           <span title="Místa odběru in-situ dat"><img class="img_left" src="./obrazky/in-situ_750x529.png" width="750" height="529" alt="Místa odběru in-situ dat"></span>
+            <p>Jednou z možností, jak získávat data o jakosti vody, je odběr a následná analýza vody v laboratoři. Kvalitu vody v nádrži ovlivňuje látkový přínos do nádrže a výsledek procesů uvnitř nádrže. Z toho důvodu se měří dynamická data na přítoku a statická data na různých místech nádrže. Na přítoku se měří hydrologická data pomoci limnigrafu a odebírají se vzorky vody pro chemický, fyzikální, mikrobiologický a hydrobiologický rozbor. Statická data se měří dvěma způsoby. Část kvalitativních měření se provádí přímo na místě pomocí sond (například multiparametrálním analyzátorem YSI 6600) na celé vertikále po 1 metru, což umožňuje okamžité zhodnocení aktuálního stavu vody, jak na hladině, tak u dna. Druhá metoda vyžaduje odběr hloubkovým odběrákem na stejné vertikále, na které se předtím měřilo sondou. Takto odebraný vzorek se podrobí laboratorní analýze, která přesněji zhodnotí jakost vody. </p>
+            
+            <p>Pro nejrychlější zjištění stavu vody nejlepší použít data naměřená pomocí sondy. Ta zjišťuje stav několika různých faktorů, ale pro kvalitu vody jsou nejdůležitější tyto: teplota vody, obsah kyslíku, zákal vody a množství chlorofylu-a. Teplota vody je klíčovým faktorem, který ovlivňuje ostatní faktory a procesy v nádrži. Závisí hlavně na teplotě vzduchu, ale protože se voda neprohřívá rovnoměrně, vytváří se v ní tzv. letní teplotní stratifikace, kdy vznikají dvě oblasti různě ohřáté vody – teplé při hladině a studenější při dnu, které jsou navzájem odděleny skočnou vrstvou. V teplejší vodě se s přispěním dalších látek (kyslíku, fosforu a dalších) snadněji tvoří sinice. </p>
+
+            <p>Kyslík ve vodě je nutný pro život většiny vodních organismů. Jeho zdrojem je difuze ze vzduchu a fotosyntéza zelených rostlin. Kvalitu vody ovlivňuje nedostatek kyslíku, který bývá v létě u dna, kde dochází k uvolňování fosforu vázaného v sedimentech do vody. Proti tomuto jevu se na Brněnské přehradě nainstalovaly aerační věže. Množství kyslíku se udává v procentu nasycení kyslíkem a jeho obvyklá hodnota se pohybuje okolo 20 %, pokud klesne blízko nuly, dochází k anoxii a úhynu organismů. Zákal vody (průhlednost) se měří pomocí Secciho desky, což je kotouč o průměru 30 cm se čtyřmi výraznými kvadranty a kalibrovanou desetimetrovou šňůrou. Tato deska se ponořuje pod hladinu a v momentě kdy již nelze kotouč rozeznat se odečte hodnota na šňůře. Vysoký zákal vody je dalším indikátorem snížené jakosti vody a dle vyhlášky Ministerstva zdravotnictví č. 464/2000 Sb. je limitní hodnota vody vhodné ke koupání stanovena na 100 cm. Ke stanovení množství chlorofylu-a se využívá fluorometrického stanovení, které využívá principu fluorescence k měření obsahu chlorofylu-a ve vodě.
+            </p>
+
+            <p>Pro zpracování map byla použita metoda vážené inverzní vzdálenosti, kdy při určení hodnoty neznámého bodu je všem měřeným bodům přiřazena váha podle jejich vzdálenosti od neznámého bodu. Váha je určena jako hodnota inverzní vzdálenosti mezi body. Čím je jejich vzdálenost větší, tím menší mají vliv při interpolačním procesu. Hodnota bodu se následně vypočítá jako vážený aritmetický průměr hodnot všech okolních bodů. Problémem této metody je omezení výskytu maximálních a minimálních hodnot pouze na měřené body, kolem kterých mohou často vznikat vyvýšené špičky nebo jamky.</p>
+
+        </div>
+
+    </div>
+        <footer>
+            <a href="https://www.khsbrno.cz/"><img id="logo_khs" src="./obrazky/KHS_58x43.png" width="58" height="43" alt="Logo KHS"></a>
+            <p id="creator">Vytvořil Tomáš Hanousek v roce 2020</p>
+            <a href="http://www.pmo.cz/"><img id="logo_pmo" src="./obrazky/logo_povodi43x43.gif" width="43" height="43" alt="Logo Povodí Moravy"></a>
+        </footer>
+
+
+    
+    </body>
+
+
+
+
+
+
+</html>

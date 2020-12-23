@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8"> <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Web pojednává o stavu vody v Brněnské přehradě v letech 2018 a 2019">
+        <title>Jakost vody v Brněnské přehradě 2018/19</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gokertanrisever/leaflet-ruler@master/src/leaflet-ruler.css" integrity="sha384-P9DABSdtEY/XDbEInD3q+PlL+BjqPCXGcF8EkhtKSfSTr/dS5PBKa9+/PMkW2xsY" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        <script src="https://cdn.jsdelivr.net/gh/gokertanrisever/leaflet-ruler@master/src/leaflet-ruler.js" integrity="sha384-N2S8y7hRzXUPiepaSiUvBH1ZZ7Tc/ZfchhbPdvOE5v3aBBCIepq9l+dBJPFdo1ZJ" crossorigin="anonymous"></script>
+        <script defer src="script_chlor.js"></script>
+    </head>
+    <body>
+        <div class ="header">
+            <img id="obr1" src="./obrazky/logo100x100.svg" width="100" height="100" alt="Logo stránky">
+            <h1>Kvalita vody na Brněnské přehradě v letech 2018 a 2019</h1>
+        </div>
+        
+        <ul class="navigation">
+            <li><a href="./index.html">Úvod</a></li>
+            <li><a href="./o_prehrade.html">O přehradě</a></li>
+            <li><a href="./Metodika.html">Metodika</a></li>
+            <li id="active"><a href="./Chlorofyl_a.html">Chlorofyl a</a></li>
+            <li><a href="./turbidity.html">Průhlednost</a></li>
+            <li><a href="./teplota.html">Teplota</a></li>
+        </ul>
+        <div id="obal">
+        
+            <div id="map" style="height: 100vh;"></div>
+ 
+        </div>
+        <footer>
+            <a href="https://www.khsbrno.cz/"><img id="logo_khs" src="./obrazky/KHS_58x43.png" width="58" height="43" alt="Logo KHS"></a>
+            <p id="creator">Vytvořil Tomáš Hanousek v roce 2020</p>
+            <a href="http://www.pmo.cz/"><img id="logo_pmo" src="./obrazky/logo_povodi43x43.gif" width="43" height="43" alt="Logo Povodí Moravy"></a>
+        </footer>
+
+
+    
+    </body>
+
+
+
+
+
+
+</html>
